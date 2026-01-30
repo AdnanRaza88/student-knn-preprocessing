@@ -13,7 +13,7 @@ st.set_page_config(page_title="Student Data KNN", layout="wide")
 st.title("Student Dataset – Preprocessing Effect on KNN")
 st.write("This app shows how preprocessing changes KNN accuracy.")
 
-df = pd.read_csv("raw_student_dataset_100rows.csv")
+df = pd.read_csv("raw_student_dataset_100rows(1).csv")
 
 st.header("Raw Data")
 st.dataframe(df.head(10))
